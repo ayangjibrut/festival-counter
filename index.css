@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-image: url("edm.jpg");
+    background-size: cover;
+    backdrop-filter: blur(3px);
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 500px;
+}
+
+.container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    min-height: 350px;
+    margin-top: 50px;
+    padding-top: 60px;
+}
+
+h1 {
+    width: 400px;
+    border-radius: 4px;
+    margin: 10px auto 10px auto;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+h2 {
+    width: 400px;
+    font-size: 30px;
+    margin: 0 auto 20px auto;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.5);
+    padding-bottom: 4px;
+}
+
+p {
+    width: 400px;
+    font-size: 20px;
+    margin: 15px auto 20px auto;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: black;
+}
+
+#save-btn {
+    background: white;
+    color: black
+}
+
